@@ -1,0 +1,30 @@
+# Run outputs (scripts/run.sh, scripts/quick_run.sh, and every example's own default)
+/results/
+/results-quick/
+/logs/
+/pretrained_checkpoints/
+/trained_models/
+**/SCRATCH*
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+
+# Notebooks
+.ipynb_checkpoints
+
+# Environments
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

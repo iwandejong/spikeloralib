@@ -1,0 +1,9 @@
+{
+  "test_loss": 0.847255289554596,
+  "test_accuracy": 0.7022222222222222,
+  "test_f1_macro": 0.5973142562154422,
+  "test_f1_weighted": 0.6943850870155923,
+  "test_sparsity": 0.650720731675392,
+  "test_generalisation_gap": 0.45038177728652956,
+  "epoch": 15.0
+}

@@ -1,0 +1,16 @@
+# spikeloralib itself (editable install from the repo root) is a prerequisite:
+#   pip install -e ../..
+transformers>=4.40
+huggingface_hub>=0.20
+scikit-learn
+numpy
+matplotlib
+tqdm
+
+# No spikingjelly dependency: both of SpikeGPT's own spiking mechanisms (the input-
+# embedding spike activation and the block-level LIF neurons gating att/ffn) are
+# mathematically identical to primitives already in spikeloralib.spiking, which this example
+# reuses instead -- see model.py's module docstring. If you later port a different
+# SpikeGPT variant that genuinely needs spikingjelly's CUDA-backed neuron kernels (e.g.
+# for throughput on very long sequences), add it here as an optional extra -- do not add
+# it as a hard dependency of spikeloralib itself.

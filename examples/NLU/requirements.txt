@@ -1,0 +1,10 @@
+# spikeloralib itself (editable install from the repo root) is a prerequisite:
+#   pip install -e ../..
+transformers>=4.40
+sentencepiece
+protobuf
+datasets>=2.18
+scipy
+scikit-learn
+numpy
+matplotlib

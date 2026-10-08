@@ -1,0 +1,8 @@
+{
+  "eval_loss": 0.8378785848617554,
+  "eval_accuracy": 0.6873614190687362,
+  "eval_f1_macro": 0.6013471758744283,
+  "eval_f1_weighted": 0.6796370608058391,
+  "eval_generalisation_gap": 0.43753045558929443,
+  "epoch": 15.0
+}
