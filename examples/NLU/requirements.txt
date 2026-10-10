@@ -1,6 +1,7 @@
 # spikeloralib itself (editable install from the repo root) is a prerequisite:
 #   pip install -e ../..
 transformers>=4.40
+accelerate>=1.1.0
 sentencepiece
 protobuf
 datasets>=2.18
