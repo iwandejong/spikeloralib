@@ -4,6 +4,8 @@
 /logs/
 /pretrained_checkpoints/
 /trained_models/
+# Local, removable WiG experiment code and outputs
+/wig/
 **/SCRATCH*
 *.log
 
